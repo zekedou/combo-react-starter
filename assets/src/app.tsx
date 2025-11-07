@@ -5,9 +5,9 @@ import "./app.css"
 
 import axios from "axios"
 import { createInertiaApp } from "@inertiajs/react"
+import { resolvePageComponent } from "./inertia-helper"
 import { StrictMode } from "react"
 import { createRoot, hydrateRoot } from "react-dom/client"
-import { resolvePageComponent } from "./inertia-helper"
 
 axios.defaults.xsrfCookieName = "CSRF-TOKEN"
 axios.defaults.xsrfHeaderName = "X-CSRF-TOKEN"

@@ -1,7 +1,7 @@
 import type { Page } from "@inertiajs/core"
 import { createInertiaApp } from "@inertiajs/react"
-import ReactDOMServer from "react-dom/server"
 import { resolvePageComponent } from "./inertia-helper"
+import ReactDOMServer from "react-dom/server"
 
 const appName = "MyApp"
 
