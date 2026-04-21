@@ -42,7 +42,7 @@ $ _build/prod/rel/my_app/bin/migrate
 $ _build/prod/rel/my_app/bin/my_app remote
 
 # To list all available commands
-$ _build/prod/rel/my_app/bin/demo
+$ _build/prod/rel/my_app/bin/my_app
 ```
 
 See [Mix.Tasks.Release](https://hexdocs.pm/mix/Mix.Tasks.Release.html) for more information about Elixir releases.
