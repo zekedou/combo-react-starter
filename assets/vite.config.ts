@@ -11,7 +11,11 @@ export default defineConfig({
       ssrInput: ["src/ssr.tsx"],
       ssrOutDir: "../priv/ssr",
     }),
-    react(),
+    react({
+      babel: {
+        plugins: ["babel-plugin-react-compiler"],
+      },
+    }),
     tailwindcss(),
   ],
 })
